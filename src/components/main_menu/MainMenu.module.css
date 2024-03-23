@@ -1,0 +1,51 @@
+.mainMenuContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.redLine {
+    border-image: linear-gradient(#890000, #d90000, #d90000, #800000) 30;
+    width: 78%;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    margin: 20px 0px;
+}
+
+.mainMenuWelcome, .mainMenuContent {
+    display: flex;
+    z-index: 101;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.buttonWelcomeDiv {
+    padding: 15px;
+}
+
+.mainMenuContent {
+    z-index: 100;
+    opacity: 0%;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+
+.bigLogo {
+    width: 50%;
+}
+
+.smallLogo {
+    width: 30%;
+}
+
+.menuBigOptionsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}

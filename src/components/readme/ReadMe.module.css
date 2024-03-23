@@ -1,0 +1,19 @@
+.whiteLine {
+    background: linear-gradient(90deg, #89000000, #ffffff, #ffffff, #80000000);
+    width: 85%;
+    height: 4px;
+    margin: 20px 0px;
+}
+
+.optionBackMenu {
+    position: absolute;
+    left: 10%;
+    font-size: 10px;
+}
+
+.buttonHolder {
+    position: absolute;
+    left: 10%;
+    font-size: 10px;
+    margin: 10px;
+}

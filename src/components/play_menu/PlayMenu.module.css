@@ -1,0 +1,21 @@
+.playDiv {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 100%;
+}
+
+.optionList {
+    width: 100%;
+}
+
+.optionsSection {
+    margin-top: 100px;
+    width: 50%;
+    height: 100%;
+}
+
+.lowerMenu {
+    position: fixed;
+    bottom: 20px;
+}

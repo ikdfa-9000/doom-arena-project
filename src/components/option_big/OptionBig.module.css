@@ -1,0 +1,17 @@
+.bigButton {
+    z-index: 2;
+    border: none;
+    display: block;
+    background: none;
+    color: rgb(246, 246, 246);
+    font-size: 30px;
+    cursor: url("./src/assets/cursor/cursor_press.png"), auto;
+}
+
+.bigButton:hover {
+    z-index: 2;
+    background: none;
+    color: rgba(255, 0, 0, 0.496);
+    font-size: 30px;
+    cursor: url("./src/assets/cursor/cursor_press.png"), auto;
+}

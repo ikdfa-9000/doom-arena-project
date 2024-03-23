@@ -1,0 +1,30 @@
+.redLine {
+    background: linear-gradient(90deg, #89000000, #d90000, #d90000, #80000000);
+    width: 78%;
+    height: 4px;
+    margin: 20px 0px;
+}
+
+.mainMenuContent {
+    display: flex;
+    z-index: 100;
+    opacity: 0%;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.smallLogo {
+    width: 30%;
+}
+
+
+.menuBigOptionsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}

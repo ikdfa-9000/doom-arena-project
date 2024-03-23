@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.screen {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    cursor: url("./src/assets/cursor/cursor_regular.png"), auto;
+}
+
+.backgroundVideo {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.backgroundSelected {
+    display: none;
+    z-index: -2;
+}
+
+.backgroundMain {
+    z-index: -1;
+}
+
+.linkButton {
+    text-decoration: none;
+    cursor: url("./src/assets/cursor/cursor_press.png"), auto;
+}
+
+.smallText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
