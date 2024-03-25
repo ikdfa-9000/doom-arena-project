@@ -8,6 +8,6 @@ Uses Vite, Framer Motion, use-sound hook, as only basic menu is being implemente
 In development, basic main menu is being implemented right now
 
 # What's next
-* Complete Play section of Main Menu
+* ~~Complete Play section of Main Menu~~ в аквапарке ⛲ реально афигенно
 * Make Settings section of Main Menu
 * Get ready for using Three.js...
