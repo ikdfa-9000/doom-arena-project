@@ -1,8 +1,8 @@
 .playDiv {
     display: flex;
-    align-items: center;
     flex-flow: row wrap;
     height: 100%;
+    margin-top: 75px;
 }
 
 .optionList {
@@ -10,8 +10,12 @@
 }
 
 .optionsSection {
-    margin-top: 100px;
-    width: 50%;
+    width: 35%;
+    height: 100%;
+}
+
+.optionContent {
+    width: 60%;
     height: 100%;
 }
 

@@ -5,7 +5,7 @@ import useSound from 'use-sound'
 import hoverSound from '../../assets/audio/buttonhover.ogg'
 import clickSound from '../../assets/audio/select.ogg'
 
-const OptionMedium = ({children, action, actionhover}) => {
+const OptionMedium = ({children, action = () => {}, actionhover = () => {}}) => {
   const [playHoverSound] = useSound(hoverSound)
   const [playClickSound] = useSound(clickSound)
   return (
@@ -16,7 +16,7 @@ const OptionMedium = ({children, action, actionhover}) => {
       }}
       onClick={() => {
         playClickSound()
-        action
+        action()
       }} >
           {children}
       </button>

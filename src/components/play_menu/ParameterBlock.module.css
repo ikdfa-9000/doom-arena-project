@@ -1,0 +1,12 @@
+.parameterDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.stat {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}

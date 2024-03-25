@@ -3,6 +3,7 @@ import classes from './ReadMe.module.css'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import OptionBig from '../option_big/OptionBig'
+import WhiteLine from '../shared/WhiteLine'
 
 const ReadMe = () => {
   return (
@@ -29,7 +30,7 @@ const ReadMe = () => {
             <h2>DOOM made by id Software, owned by Bethesda</h2>
             <h3>made by ikdfa if anyone cares bruh</h3>
         </div>
-        <div className={classes.whiteLine}></div>
+        <WhiteLine />
         <div className={classes.buttonMover}>
         <OptionBig link='/menu'>BACK TO MENU</OptionBig>
         </div>
