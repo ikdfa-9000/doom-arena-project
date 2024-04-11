@@ -1,5 +1,5 @@
 import React from 'react'
-import WhiteLine from '../shared/WhiteLine'
+import WhiteLine from '../../components/shared/WhiteLine'
 import classes from './ParameterBlock.module.css'
 
 const ParameterBlock = ({ text, number }) => {

@@ -1,0 +1,51 @@
+.sliderContainer 
+{
+    background-color: #50505080;
+    position: relative;
+    height: 45px;
+    width: 250px;
+    padding-right: 0px;
+}
+
+.sliderFiller
+{
+    background-color: #d8d8d880;
+    position: absolute;
+    height: 45px;
+    padding-right: 0px;
+}
+
+
+.slider {
+    width: 250px;
+    height: 100%;
+    opacity: 0%;
+}
+
+.numberSlider {
+    font-size: 30px;
+    float: right;
+    margin: 10px;
+}
+
+.centerDivSlider {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.centerDivNumber {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.centerDivNumberDiv {
+    width: 100%;
+    position: relative;
+}

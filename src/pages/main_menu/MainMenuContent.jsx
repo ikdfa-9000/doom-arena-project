@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import OptionImage from '../option_image/OptionImage'
+import OptionImage from '../../components/option_image/OptionImage'
 import smallIcon from '../../assets/logo/doomlogo_small.png'
 import playImage from '../../assets/misc/mainmenu/play_img.png'
 import creditsImage from '../../assets/misc/mainmenu/credits_img.png'
@@ -29,7 +29,7 @@ const MainMenuContent = () => {
         <div className={classes.menuBigOptionsDiv}>
             <OptionImage background={creditsImage} text='README' link='/readme'></OptionImage>
             <OptionImage background={playImage} text='PLAY' link='/playmenu'></OptionImage>
-            <OptionImage background={settingsImage} text='SETTINGS' link='/menu'></OptionImage>
+            <OptionImage background={settingsImage} text='SETTINGS' link='/settings'></OptionImage>
         </div>
         <div className={classes.redLine}></div>
     </motion.div>

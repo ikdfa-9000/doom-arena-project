@@ -1,0 +1,18 @@
+.textContainer {
+    position: relative;
+}
+
+.textShadow {
+    z-index: 3; 
+    position: absolute; 
+    color: red; 
+    left: 2px; 
+    top: 2px; 
+    font-size: 40px;
+}
+
+.textFront {
+    z-index: 4; 
+    position: relative; 
+    font-size: 40px;
+}

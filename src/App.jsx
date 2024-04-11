@@ -1,11 +1,12 @@
 import React, {useEffect} from 'react'
 import {BrowserRouter, Routes, Route, } from 'react-router-dom' 
-import { AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion'
 import backgroundvideoselected from './assets/vids/menu_selected.mp4'
-import MainMenuWelcome from './components/main_menu/MainMenuWelcome.jsx'
-import MainMenuContent from './components/main_menu/MainMenuContent.jsx'
-import ReadMe from './components/readme/ReadMe.jsx';
-import PlayMenu from './components/play_menu/PlayMenu.jsx';
+import MainMenuWelcome from './pages/main_menu/MainMenuWelcome.jsx'
+import MainMenuContent from './pages/main_menu/MainMenuContent.jsx'
+import ReadMe from './pages/readme/ReadMe.jsx'
+import Settings from './pages/settings/Settings.jsx'
+import PlayMenu from './pages/play_menu/PlayMenu.jsx'
 import backgroundMus from './assets/audio/menu_music.ogg'
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route path='readme' element={<ReadMe/>} />
+            <Route path='settings' element={<Settings/>} />
             <Route path='playmenu' element={<PlayMenu/>} />
             <Route path='menu' element={<MainMenuContent/>} />
             <Route path='welcome' element={<MainMenuWelcome/>} />

@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 import bigIcon from '../../assets/logo/doomlogo_big.png'
 import classes from './MainMenuWelcome.module.css'
-import OptionBig from '../option_big/OptionBig'
+import OptionBig from '../../components/option_big/OptionBig.jsx'
 import { Link } from 'react-router-dom'
 import backgroundvideomain from '../../assets/vids/menu_main.mp4'
 

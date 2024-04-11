@@ -1,0 +1,19 @@
+.checkboxContainer {
+    border: white 2px solid;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    cursor: url("./src/assets/cursor/cursor_press.png"), auto;
+}
+
+.checkboxInsides {
+    background-color: white;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 2px;
+}

@@ -1,0 +1,30 @@
+.settingsDiv {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+}
+
+.settingsListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 30%
+}
+
+.lowerMenu {
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.settingsList {
+    margin-top: 50px;
+}
+
+.settingsContentContainer {
+    margin-top: 100px;
+    width: 70%
+}

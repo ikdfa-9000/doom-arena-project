@@ -1,0 +1,25 @@
+.optionContainer {
+    width: 650px;
+    height: 45px;
+    padding: 10px;
+    display: flex;
+    border: 2px solid transparent;
+    background-color: rgba(55, 55, 55, 0.6);
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.optionContainer:hover {
+    border-image: linear-gradient(45deg, red , rgb(255, 106, 0));
+    border-image-slice: 1;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(55, 55, 55, 0.6);
+}
+
+.optionName {
+    font-size: 20px;
+}

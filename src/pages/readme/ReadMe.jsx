@@ -1,9 +1,8 @@
 import React from 'react'
 import classes from './ReadMe.module.css'
 import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
-import OptionBig from '../option_big/OptionBig'
-import WhiteLine from '../shared/WhiteLine'
+import OptionBig from '../../components/option_big/OptionBig'
+import WhiteLine from '../../components/shared/WhiteLine'
 
 const ReadMe = () => {
   return (
