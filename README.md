@@ -9,5 +9,5 @@ In development, basic main menu is being implemented right now
 
 # What's next
 * ~~Complete Play section of Main Menu~~ в аквапарке ⛲ реально афигенно
-* Make Settings section of Main Menu
-* Get ready for using Three.js...
+* ~~Make Settings section of Main Menu~~ yeezy's back, alright!
+* ~~Get ready for using Three.js...~~ learning!
