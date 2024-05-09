@@ -11,3 +11,6 @@ In development, basic main menu is being implemented right now
 * ~~Complete Play section of Main Menu~~ в аквапарке ⛲ реально афигенно
 * ~~Make Settings section of Main Menu~~ yeezy's back, alright!
 * ~~Get ready for using Three.js...~~ learning!
+Game repository [here](https://github.com/ikdfa-9000/doom-arena-game?tab=readme-ov-file)
+
+Nothing is ready yet, but at least this project is not dead... gotta do uni stuff now
