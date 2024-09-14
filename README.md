@@ -3,6 +3,9 @@ DOOM Arena Project is a working name for a DOOM 2016 inspired arena shooter work
 
 # Tools
 Uses Vite, Framer Motion, use-sound hook, as only basic menu is being implemented right now, installed using npm (if that matters)
+- npm install
+- npm run dev
+RUN THESE COMMANDS
 
 # Status
 In development, basic main menu is being implemented right now
